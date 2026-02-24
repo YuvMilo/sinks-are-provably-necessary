@@ -24,10 +24,10 @@ mean and standard deviation of attention weights across 1000 test examples
 python figure_code/fig_single_layer.py --output_dir figures
 ```
 
-### Figure 2: Multi-Layer Multi-Head — 2 Layers, 2 Heads (Fig. 3 & Fig. 5)
+### Figure 2: Multi-Layer Multi-Head — 2 Layers, 2 Heads (Fig. 4 & Fig. 5)
 
-Trains 2-layer 2-head softmax and ReLU models with residual connections, then
-plots per-head attention patterns on a single test input.
+Trains 2-layer 2-head softmax and ReLU models, then
+plots per-head attention patterns on a single test input  with triger position 8.
 
 ```bash
 # Crate for Softmax and Relu Figures
@@ -35,6 +35,9 @@ python figure_code/fig_multilayer.py --num_layers 2 --num_heads 2 --output_dir f
 ```
 
 ### Appendix Figures: 4 Layers, 4 Heads (Fig. 6 & Fig. 7)
+
+Trains 4-layer 4-head softmax and ReLU models, then
+plots per-head attention patterns on a single test input with triger position 8.
 
 ```bash
 # Crate for Softmax and Relu Figures
