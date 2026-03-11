@@ -1,6 +1,4 @@
-# Attention Sinks Are Provably Necessary in Softmax Transformers
-
-Code for reproducing the experiments in the paper.
+Code for reproducing the experiments in the paper "Attention Sinks Are Provably Necessary in Softmax Transformers".
 
 ## Setup
 
@@ -43,3 +41,4 @@ plots per-head attention patterns on a single test input with triger position 8.
 # Crate for Softmax and Relu Figures
 python figure_code/fig_multilayer.py --num_layers 4 --num_heads 4 --output_dir figures
 ```
+
