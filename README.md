@@ -32,7 +32,7 @@ plots per-head attention patterns on a single test input  with triger position 8
 python figure_code/fig_multilayer.py --num_layers 2 --num_heads 2 --output_dir figures
 ```
 
-### Multi-Layer Multi-Head — 4 Layers, 4 Heads (Fig. 6 & Fig. 7)
+### Multi-Layer Multi-Head — 4 Layers, 4 Heads (Fig. 6-8)
 
 Trains 4-layer 4-head softmax and ReLU models, then
 plots per-head attention patterns on a single test input with triger position 8.
@@ -41,4 +41,5 @@ plots per-head attention patterns on a single test input with triger position 8.
 # Crate for Softmax and Relu Figures
 python figure_code/fig_multilayer.py --num_layers 4 --num_heads 4 --output_dir figures
 ```
+
 
