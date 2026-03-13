@@ -1,4 +1,4 @@
-Code for reproducing the experiments in the paper "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks" [https://arxiv.org/abs/2410.14067].
+Code for reproducing the experiments in the paper "Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks" [https://arxiv.org/abs/2603.11487].
 
 ## Setup
 
@@ -41,6 +41,7 @@ plots per-head attention patterns on a single test input with triger position 8.
 # Crate for Softmax and Relu Figures
 python figure_code/fig_multilayer.py --num_layers 4 --num_heads 4 --output_dir figures
 ```
+
 
 
 
